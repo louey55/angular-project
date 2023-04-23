@@ -1,0 +1,22 @@
+<div class="card border-primary mb-3 ">
+    <div class="card-body text-success">
+      <h5 class="card-title title">Créer une annonce de location </h5>
+      <div>
+        
+          <div class="row">
+            <div class="form-group col-md-6">
+              <label for="date_debut">Date Debut</label>
+              <input type="date" class="form-control" id="date_debut" placeholder="date debut" [(ngModel)]="louer.date_debut">
+            </div>
+            <div class="form-group col-md-6">
+              <label for="date_fin">date fin</label>
+              <input type="date" class="form-control" id="date_fin" placeholder="date fin" [(ngModel)]="louer.date_fin">
+            </div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" (click)="creerAnnonceL()">enregistrer</button>
+        
+      </div>
+    </div>
+  </div>
+  

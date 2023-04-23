@@ -1,0 +1,22 @@
+<div class="row" id="r1">
+    <div *ngFor="let item of vehicules" class="col-lg-4 mb-4">
+        <div class="card border">
+          <img src="{{item.imagee}}" alt="" class="card-img-top" height="200px">
+          <div class="card-body">
+            <h5 class="card-title">{{ item.Marque }}</h5>
+            <ul>
+              <li>Matricule : {{ item.Matricule }}</li>
+              <li>Boite : {{ item.Moteur }}</li>
+              <li>Etat : {{ item.Etat }}</li>
+              <li>Puissance : {{ item.Puissance }}</li>
+              <li>Prix : {{ item.Prix }}</li>
+              <li>Zone : {{ item.zonee }}</li>
+            </ul>    
+            <a href="" class="btn btn-primary btn-sm">Read More</a>
+            <a href="" class="btn btn-primary float-end btn-sm" routerLink="/annonce-louer"> Louer </a>
+
+          </div>
+        </div>
+      </div>
+  </div>
+  

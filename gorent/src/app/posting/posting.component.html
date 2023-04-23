@@ -1,0 +1,32 @@
+<div class="container">
+  <div class="left">
+    <div class="ok">
+      <div class="header">
+        <h2>Publier une annonce</h2>
+        <h4>maintenant!</h4>
+      </div>
+      <div class="form">
+        <input type="text" class="form-control mb-3" id="marque" placeholder="Marque" [(ngModel)]="annonce.marque">
+        <input type="text" class="form-control mb-3" id="modele" placeholder="Modéle" [(ngModel)]="annonce.modele">
+        <input type="text" class="form-control mb-3" id="inputMatricule" placeholder="marticule" [(ngModel)]="annonce.matricule">
+        <input type="text" class="form-control mb-3" id="moteur" placeholder="Moteur" [(ngModel)]="annonce.moteur">
+        <input type="text" class="form-control mb-3" id="puissance" placeholder="Puissance" [(ngModel)]="annonce.puissance">
+        <input type="text" class="form-control mb-3" id="prix" placeholder="prix" [(ngModel)]="annonce.prix">
+        <select class="form-select mb-3" [(ngModel)]="annonce.zone" id="zone">
+          <option value="" disabled selected hidden>Selectionnez votre zone</option>
+          <option value="tunis">tunis</option>
+          <option value="araina">ariana</option>
+          <option value="bizerte">bizerte</option>
+          <option value="monastir">monastir</option>
+          <option value="sfax">sfax</option>
+          <option value="medenin">medenin</option>
+        </select>
+
+        <input type="file" class="form-control-file" id="fichier" [(ngModel)]="annonce.image" accept="image/*" placeholder="choisir une image"><br><br>
+        <button (click)="creerAnnonce()" class="btn ">publier</button>
+      </div>
+    </div>
+    </div>
+
+  <div class="right"></div>
+</div>

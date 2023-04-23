@@ -1,0 +1,97 @@
+.header > h2 {
+    margin-left: 4px;
+    margin-top: -10px;
+    color: #4f46a5;
+  }
+
+  .header > h4 {
+    margin-left: 4px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(0,0,0,.4);
+  }
+  button {
+    padding: 12px 119px;
+    border: 0;
+    background: linear-gradient(to right, #8414aa 0%,#0097ff 100%); 
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 4px;
+  }
+.title
+{
+    text-align: center;
+    color: blue;
+}
+
+.row
+{
+    margin-top: 20px;
+}
+
+.form-control{
+    width: 300px;
+}
+.form-select{
+    width: 300px;
+}
+
+
+.form-control-file{
+    font-size: 15px;
+    background: white;
+    border-radius: 50px;
+    box-shadow: 1px 1px 5px black;
+    width: 300px;
+    outline: none;
+}
+
+::-webkit-file-upload-button{
+    color: white;
+    background: #2d60ee;
+    padding: 8px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 1px 1px;
+    outline: none;
+}
+::-webkit-file-upload-button:hover{
+    background: #3d6ff9;
+}
+
+.container {
+    display: flex;
+    height: 92.8vh;
+    width: 84.6vw;
+    margin-top: 50px;
+    padding: 0;
+    margin-left: 216px;
+    margin-bottom: 0px;
+  }
+
+
+
+  .left {
+    width: 220px;
+    background-color: #ffffff;
+  }
+
+  .right {
+    margin-top: 50px;
+    background-image: url('../../assets/background/publier.jpg');
+    background-repeat: no-repeat;
+    position: relative;
+    flex: 8;
+    background-color: #d3d3d3;
+    background-size: cover;
+    position: relative;
+    margin-top: -600px;
+  }
+.ok{
+    margin-left: -150px;
+    margin-top: 50px;
+}
