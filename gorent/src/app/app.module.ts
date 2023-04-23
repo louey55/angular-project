@@ -12,6 +12,7 @@ import { HttpClientModule} from '@angular/common/http';
 import { PostingComponent } from './posting/posting.component';
 import { AnnonceLouerComponent } from './annonce-louer/annonce-louer.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { TestComponent } from './test/test.component';
 
 
 
@@ -26,7 +27,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     NavbarComponent,
     InscriptionComponent,
     PostingComponent,
-    AnnonceLouerComponent
+    AnnonceLouerComponent,
+    TestComponent
   ],
   imports: [
     BrowserModule,
